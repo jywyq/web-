@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body{
+	background-image: url(../images/lockscreen-bg.jpg);
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
+table.altrowstable {
+	position: absolute;
+	left: 25%;
+	top: 15%;
+
+	font-family: verdana,arial,sans-serif;
+	font-size:14px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.altrowstable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+.evenrowcolor{
+	background-color:#c3dde0;
+}
+.hd{
+	position: absolute;
+	left: 45%;
+	top: 6%;
+	font-size: 35px;
+	font-family: "Microsoft YaHei" ! important;
+}
+.down1{
+	position: absolute;
+	left: 80%;
+	top: 85%;
+	font-size: 20px;
+}
+.down2{
+	position: absolute;
+	left: 80%;
+	top: 92%;
+	font-size: 20px;
+}
